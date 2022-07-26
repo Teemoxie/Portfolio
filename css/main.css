@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+:root {
+    --primary-color: rgb(139, 0, 0);
+}
+
+body {
+    background: rgb(252, 251, 251);
+    margin: 0;
+    font-family: Roboto;
+}
+
+.navbar {
+    background-color: rgb(11, 8, 2);
+    padding: .5em;
+    display: flex;
+}
+
+.logo {
+    text-decoration: none;
+            font-weight: bold;
+            color: crimson;
+            font-size: 1.7em;
+}
+
+span {
+    color: red;
+}
+
+.navbar {
+    height: 45px;
+}
+
+.navbar ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar li {
+    display: inline-flex;
+    height: 100px;
+    width: 100px;
+}
+    .navbar li a {
+        color: antiquewhite;
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 16px;
+    }
+
+    .navbar li a:hover {
+        color: #dd5771;
+    }
+
+  .left-col {
+    text-align: center;
+  }  
+
+  .Right-col {
+    text-align: center;
+  } 
+
+  .hero-cta {
+    background: #dd5771;
+    color: azure;
+    text-decoration: none;
+    padding: .6em 1.3em;
+    font-size: 1.4em;
+    border-radius: 5em;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  .testimonial-section {
+    background: #20272e;
+    color: whitesmoke;
+  }
+
+  ul.left-col {
+margin: 0;
+padding-left: .1em;
+  }
+
+  li.left-col {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    background-size: contain;
+  }
+
+  label {
+    display:block;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+  }
+
+  input, textarea {
+    width: 20em;
+    padding: .8em;
+    margin-bottom: 1em;
+    border-radius: .3em;
+    border: 1px salmon;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #dd5771;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    border: none;
+    margin-bottom: 5em;
+    display: inline-block;
+    width: unset;
+    cursor: pointer;
+}
+
+
+
